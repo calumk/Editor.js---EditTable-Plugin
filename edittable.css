@@ -1,0 +1,28 @@
+.simple-edittable input,
+.simple-edittable [contenteditable] {
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid #e4e4e4; */
+    /* background: #fff; */
+    box-sizing: border-box;
+    /* border-radius: 3px; */
+    outline: none;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.is-edittable-display{
+    color:#0091DB;
+    text-align: center;
+    font-size: 30px;
+}
+.inputtable tbody td{
+    vertical-align: top !important;
+    text-align: left;
+}
+
+.inputtable tbody tr:first-child{
+    vertical-align: top !important;
+    background-color: #0091DB !important;
+    color:#fff !important;
+}
